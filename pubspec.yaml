@@ -1,0 +1,78 @@
+name: exclusive_access
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  pinput:
+  google_fonts: ^4.0.3
+  google_maps_flutter: ^2.2.0
+  dotted_line: ^3.1.0
+  flutter_statusbarcolor_ns: ^0.5.0
+  flutter_native_splash: ^2.2.18
+  connectivity_plus: ^3.0.3
+  get_storage: ^2.0.3
+  lottie: ^2.2.0
+  flutter_styled_toast: ^2.1.3
+  shared_preferences: ^2.0.18
+  shimmer: ^2.0.0
+  intl: ^0.17.0
+  flutter_typeahead: ^4.3.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#flutter_native_splash:
+#  color: '#000000'
+#  color_dark: '#000000'
+#  image: assets/images/splash_logo.png
+##  image_dark: assets/images/splash_logo.png
+#  icon_background_color_dark: '#000000'
+#  android: true
+#  ios: true
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/bottom_bar_icons/
+    - assets/images/settings_icons/
+    - assets/lotifiles/
+
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica/Helvetica-Bold.ttf
+          weight: 800
+#        - asset: assets/fonts/Helvetica/helvetica-rounded.otf
+#          weight: 600
+        - asset: assets/fonts/Helvetica/helvetica-light.ttf
+          weight: 400
+        - asset: assets/fonts/Helvetica/Helvetica-Medium.ttf
+          weight: 800
+        - asset: assets/fonts/Helvetica/HelveticaCEMedium.otf
+          weight: 500
+        - asset: assets/fonts/Helvetica/HelveticaUltraCompressed.otf
+          weight: 600
+
+
+
+
+
